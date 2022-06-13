@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato+Baskerville:wght@700&family=Libre+Baskerville:wght@400;700&display=swap');
+/*    font-family: 'Lato', sans-serif;
+
+    font-family: 'Libre Baskerville', serif;*/
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
+
+.container {
+	max-width: 1440px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.btn {
+	background-color: #01996D;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #fff;
+	border: 1px solid #01996D;
+	border-radius: 4px;
+	padding: 13px 50px;
+	margin-left: 35px;
+}
+
+
+
+
+.header {
+}
+.header__nav {
+	/*display: flex;
+	justify-content: space-between;
+	padding: 32px 0px;
+	align-items: center;*/
+}
+.header_main-nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0px;
+	align-items: center;
+}
+.logo {
+}
+.nav {
+}
+.nav__list {
+	display: flex;
+}
+.nav__item {
+	margin-left: 72px;
+}
+.nav__item:first-child{
+	margin-left: 0px;
+}
+.nav__link {
+}
+.link {
+	color: #292929;
+	font-size: 20px;
+	line-height: 24px;
+	transition: ease-in .3s;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.nav__buttons {
+
+}
+.signup {
+}
+
+
+
+.header__content {
+	background-image: url(../img/header/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container {
+}
+.header__content-info {
+	padding: 75px 0 336px 0;
+}
+.content-title {
+	font-family: 'Libre Baskerville', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 74px;
+	color: #01996D;
+	max-width: 450px;
+	padding-bottom: 30px;
+}
+.content-descr {
+	max-width: 420px;
+	font-size: 20px;
+	line-height: 31px;
+	color: #484848;
+	padding-bottom: 52px;
+}
+.btnstart {
+	margin-left: 0;
+}
+
+
+.main {
+}
+.understand {
+	margin-top: 170px;
+	margin-bottom: 50px;
+}
+.container {
+
+}
+.uppertitle {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 157%;
+	color: #424242;
+}
+.title-descr {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 180px;
+}
+.und-title {
+	font-family: 'Libre Baskerville', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+	color: #01996D;
+	max-width: 584px;
+
+}
+.und-subtitle {
+	font-size: 20px;
+	line-height: 150%;
+	color: #424242;
+	max-width: 672px;
+}
+.cards__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.card {
+	max-width: 390px;
+	position: relative;
+}
+.num {
+	font-weight: 400;
+	font-size: 150px;
+	line-height: 150%;
+	color: rgba(1, 153, 109, 0.2);
+	font-family: 'Libre Baskerville', serif;
+	position: absolute;
+	top: -12.5%;
+	z-index: -1;
+}
+.seccard{
+	padding-top: 23%;
+}
+.seccard h3 {
+	text-align: right;
+}
+.numsec {
+	top: 18%;
+}
+.card-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 150%;
+	color: #000000;
+	padding-bottom: 55px;
+	text-align: center;
+}
+.card-descr {
+	font-size: 20px;
+	line-height: 150%;
+	padding-bottom: 60px;
+}
+.card-img {
+
+}
+
+
+.video {
+	padding: 230px 0 170px 0;
+	background-color: #245852;
+	color: #fff;
+}
+.container__video {
+	max-width: 1540px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.video__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.video-info {
+
+}
+.video-title {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 157%;
+	font-family: 'Libre Baskerville', serif;
+	padding-top: 100px;
+	padding-bottom: 32px;
+}
+.video-sub {
+	padding-bottom: 56px;
+	font-size: 25px;
+	line-height: 157%;
+}
+.btn {
+}
+.btnstart {
+}
+.video-main {
+	max-width: 896px;
+	max-height: 516px;
+}
+
+.product {
+	padding-top: 120px;
+	padding-bottom: 168px;
+}
+.container {
+}
+.product__wrapper {
+	display: flex;
+}
+.picture {
+	padding-right: 86px;
+}
+.pucture_main {
+	position: relative;
+}
+.picture_card {
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+.product__info {
+}
+.uppertitle {
+	padding-bottom: 10px;
+}
+.und-title {
+	padding-bottom: 20px;
+}
+.und-subtitle {
+	padding-bottom: 40px;
+	max-width: 530px;
+}
+.btn {
+}
+.btnstart {
+}
+
+
+.footer {
+	background-color: #245852;
+	padding-top: 100px;
+	padding-bottom: 144px;
+}
+.logo {
+	color: #fff;
+	font-size: 30px;
+	padding-bottom: 60px;
+}
+.container {
+}
+.footer-info {
+	display: flex;
+	flex-direction: column;
+}
+.foot-links {
+	color: #fff;
+	padding-bottom: 30px;
+	font-size: 20px;
+	transition: ease .3s;
+	max-width: 150px;
+}
+.foot-links:hover {
+	text-decoration: underline;
+}
+.foot-links:last-child {
+	padding-bottom: 0;
+}
